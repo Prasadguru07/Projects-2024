@@ -1,0 +1,21 @@
+ 
+        body { 
+            background-image: url(cyber-technology-background_23-2148390330.avif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        h1 {
+            color:black;
+            text-align: center;
+
+        }
+        h2 {
+            color:green;
+        }
+        p {
+            font-size: 45px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 15px;
+            margin-left: 20px;
+        }

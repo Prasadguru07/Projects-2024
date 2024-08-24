@@ -1,0 +1,41 @@
+## Bageasy Login and Checkout Automation Script (with Selenium)##	
+
+This script automates the login and checkout process for a specific product on the Bageasy website ([https://bageasy.in/](https://bageasy.in/)). 
+
+Requirements:
+
+ Python 3.x
+ Selenium WebDriver
+ Webdriver for your desired browser (Firefox in this case)
+
+Installation:
+
+1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Install Selenium WebDriver using pip: `pip install selenium`
+3. Download the appropriate WebDriver for your browser from [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/) or [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
+4. Place the WebDriver executable in your system path or set the path using `Service` class.
+
+Instructions:
+
+1. Create a new file named `credentials.py` and add the following lines, replacing the placeholders with your actual Bageasy login credentials:
+
+```python
+credentials.username = "your_username@example.com"
+credentials.password = "your_password"
+```
+
+2. Run the script `bageasy_automate.py` (replace with your actual filename).
+
+Functionality:
+
+ Opens Bageasy website in Firefox browser.
+ Clicks on the Login button.
+ Fetches username and password from `credentials.py` and enters them in the login form.
+ Clicks on the Login button again.
+ Navigates to a specific product page (modify the XPATH selector if needed).
+ Clicks on the "Add to Cart" button for the product.
+ Clicks on the "Cart" icon.
+ Clicks on the "Checkout" button.
+ Waits for 5 seconds (you can modify this time).
+
+
